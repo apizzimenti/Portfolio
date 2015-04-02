@@ -1,4 +1,6 @@
 # Portfolio
+
+[![Join the chat at https://gitter.im/apizzimenti/Portfolio](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/apizzimenti/Portfolio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is a single HTML page dedicated to showcasing my work. It's small, clean, and organized, and I love it with all my heart. I worked
 for a good amount of time trying to figure out an aesthetic that'd work well with the theme of what's being presented, and I think I 
 found it after a while.
