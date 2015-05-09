@@ -102,8 +102,7 @@ ul {
 
 code {
     font-family: 'Droid Sans Mono';
-    font-size: 12px;
-    background: #e8e8ee;
+    font-size: 11px;
     padding: 1px 2px;
     }
 
@@ -211,3 +210,23 @@ a:visited {
 .alert:hover {
 	cursor: pointer;
 	}
+    
+.self {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px black;
+    float: left;
+    margin-top: 10px;
+    }
+
+.description {
+    width: 550px;
+    margin-left: 10px;
+    text-align: justify;
+    display: inline-block;
+    }
+    
+.info {
+    width: 100%;
+    }
