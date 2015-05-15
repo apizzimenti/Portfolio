@@ -4,12 +4,12 @@
 
 $(document).ready(function () {
     "use strict";
-    var count = 1, i = 1, setcolor, flag = true, secondCount = 0;
+    var i = 1, setcolor, flag = true;
     
     $('.black').click(function () {
         $('body').css({'background-color': '#000'});
 		$('body').css({'color': '#fff'});
-		$('a:link, a:hover, a:visited').css('color', 'white');
+		$('a:liyunk, a:hover, a:visited').css('color', 'white');
 		$('.black').css({'color': '#fff'});
 		$('.random').css({'background-color': 'white'});
 		$('#topper, #bottomer').css({'color': 'white'});
@@ -19,7 +19,6 @@ $(document).ready(function () {
 		$('.want').fadeOut(300);
 		$('.csschange > .white, .black, .random').css({'opacity': '1'});
 		$('.middle-container').css({'opacity': '1'});
-        
         flag = true;
         
     });
@@ -57,6 +56,7 @@ $(document).ready(function () {
 		if (i <= 1) {
 			$('.alert').css({'box-shadow': '0px 0px 15px #000'});
 			$('.alert').fadeIn(300);
+            $('.alert').css({'opacity': '1'});
 			$('.middle-container').css({'opacity': '0.2'});
 			$('.csschange > .white, .black, .random').css({'opacity': '0.2'});
 			
