@@ -8,8 +8,8 @@ $(document).ready(function () {
     
     $('.black').click(function () {
         $('body').css({'background-color': '#000'});
-		$('body').css({'color': '#fff'});
-		$('a:liyunk, a:hover, a:visited').css('color', 'white');
+		$('body').css({'color': 'white'});
+		$('a:link, a:hover, a:visited').css('color', 'white');
 		$('.black').css({'color': '#fff'});
 		$('.random').css({'background-color': 'white'});
 		$('#topper, #bottomer').css({'color': 'white'});
@@ -19,8 +19,8 @@ $(document).ready(function () {
 		$('.want').fadeOut(300);
 		$('.csschange > .white, .black, .random').css({'opacity': '1'});
 		$('.middle-container').css({'opacity': '1'});
-        flag = true;
         
+        flag = true;
     });
 
     $('.white').click(function () {
