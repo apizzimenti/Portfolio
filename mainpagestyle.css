@@ -208,8 +208,8 @@ a:visited {
 	}
 	
 .alert:hover {
-	cursor: pointer;
-	}
+    cursor: pointer;
+}
     
 .self {
     height: 100px;
