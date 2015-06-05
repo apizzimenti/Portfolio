@@ -56,7 +56,6 @@ $(document).ready(function () {
 		if (i <= 1) {
 			$('.alert').css({'box-shadow': '0px 0px 15px #000'});
 			$('.alert').fadeIn(300);
-            $('.alert').css({'opacity': '1'});
 			$('.middle-container').css({'opacity': '0.2'});
 			$('.csschange > .white, .black, .random').css({'opacity': '0.2'});
 			
