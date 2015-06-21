@@ -28,7 +28,8 @@ button {
   margin-top: 25px;
   line-height: 2;
   display: inline-block;
-  transition: opacity 1s; }
+  transition: opacity 1s;
+  z-index: 1; }
 
 .csschange {
   position: absolute;
@@ -103,7 +104,6 @@ code {
 .decision h2 {
   text-align: center;
   transition: color 1s; }
-
 .decision p {
   line-height: 1.4; }
 
@@ -112,18 +112,15 @@ p {
 
 a {
   transition: color 1s; }
-
-a:link {
-  color: black;
-  text-decoration: none; }
-
-a:hover {
-  color: black;
-  text-decoration: underline; }
-
-a:visited {
-  color: black;
-  text-decoration: none; }
+  a:link {
+    color: black;
+    text-decoration: none; }
+  a:hover {
+    color: black;
+    text-decoration: underline; }
+  a:visited {
+    color: black;
+    text-decoration: none; }
 
 #copyright {
   text-align: center;
@@ -152,15 +149,14 @@ a:visited {
   border-radius: 100%;
   display: inline-block;
   transition: border 1s; }
-
-#newColor > p {
-  margin-top: 41px;
-  padding: 0px; }
+  #newColor p {
+    margin-top: 41px;
+    padding: 0px; }
 
 .alert {
   width: 300px;
   height: auto;
-  background-color: white;
+  background-image: url("http://us.farrow-ball.com/pws/client/images/catalogue/products/102005/large/102005.jpg");
   position: absolute;
   position: fixed;
   margin-left: 10px;
@@ -169,19 +165,17 @@ a:visited {
   text-align: center;
   padding: 3px 3px 3px 3px;
   transition: box-shadow 0.5s;
-  opacity: 1; }
-
-.alert:hover {
-  cursor: pointer; }
+  z-index: 2; }
+  .alert:hover {
+    cursor: pointer; }
 
 .self {
   height: 100px;
   border-radius: 5px;
   box-shadow: 0px 0px 7px black;
   transition: box-shadow 0.5s; }
-
-.self:hover {
-  box-shadow: none; }
+  .self:hover {
+    box-shadow: none; }
 
 .description {
   text-align: center; }
